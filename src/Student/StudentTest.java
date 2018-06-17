@@ -15,18 +15,19 @@ public class StudentTest {
             String name = br.readLine();
             System.out.println("Enter Status Press F for Full Time Or P for Part Time:");
             String status = br.readLine();
+            int creditInt=0;
             if(status.equals("F"))
             {
-                FullTime f= new FullTime(name,true);
+                FullTime f= new FullTime(name,true,creditInt);
                 f.calFees();
             }
             if(status.equals("P"))
                 {
                     System.out.println("Enter credits:");
                     String credit = br.readLine();
-                    int creditInt = Integer.parseInt(credit);
-                PartTime p = new PartTime(name,true,creditInt);
-                p.calFees();
+                    creditInt = Integer.parseInt(credit);
+                    PartTime p = new PartTime(name,true,creditInt);
+                    p.calFees();
                 }
 
         }

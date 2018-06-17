@@ -46,7 +46,7 @@ public class ProcessMortgage {
                     mort = new PersonalMortgage(++number,name,amount,rate,term);
                 }
                 else{
-                    System.out.println("Invald Value of Type!!");
+                    System.out.println("Invalid Value of Type!!");
                     isValid = false;
                 }
                 if(isValid){

@@ -8,10 +8,11 @@ public abstract class StudentClass
     private boolean status;
     private  int credit;
 
-    public StudentClass(String stuName, boolean status)
+    public StudentClass(String stuName, boolean status,int credit)
     {
         this.stuName = stuName;
         this.status=status;
+        this.credit=credit;
     }
     public String getstuName()
     {

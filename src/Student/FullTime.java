@@ -3,10 +3,10 @@ package Student;
 public class FullTime extends  StudentClass
 {
     double fees = 2000;
-    public FullTime(String stuName, boolean status)
+    public FullTime(String stuName, boolean status,int credits)
 
     {
-        super(stuName,status);
+        super(stuName,status,credits);
     }
     public  void calFees()
     {
