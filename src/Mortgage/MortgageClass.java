@@ -11,9 +11,7 @@ public abstract  class MortgageClass {
     {
         this.mortgageNumber = mortgageNumber;
         this.customerName = customerName;
-
         this.amount = amount;
-
         this.rate = rate;
         this.term = term;
 

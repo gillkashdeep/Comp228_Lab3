@@ -68,6 +68,5 @@ public class ProcessMortgage {
         {
             System.out.println("Please enter valid value");
         }
-
     }
 }
