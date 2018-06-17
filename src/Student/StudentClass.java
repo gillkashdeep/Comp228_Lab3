@@ -25,8 +25,5 @@ public abstract class StudentClass
     public int getCredit() {
         return credit;
     }
-
     abstract public void calFees();
-
-
 }
